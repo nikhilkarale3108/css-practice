@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+/*		div {
+			width: 200px;
+			height: 200px;
+			background-color: orange;
+			border:2px solid red;
+			animation-name: coloranim;
+			animation-duration: 16s;
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes coloranim {
+			25%{
+				background-color: red;
+			}
+			50%{
+				background-color: yellow;
+			}
+			75%{
+				background-color: blue;
+			}
+			100%{
+				background-color: orange;
+			}
+		}*/
+
+		#cityname:after {
+			content:"";
+			animation-name: citynameanim;
+			animation-duration: 1s;
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes citynameanim {
+			25%{
+				content: "BALI";
+				color:blue;
+			}
+			50%{
+				content: "PRAYAGRAJ";
+				color: orange;
+			}
+			75%{
+				content: "GOA";
+				color: green;
+			}
+			100%{
+				content: "DUBAI YA HABIBI";
+			}
+		}
+	</style>
+</head>
+<body>
+<div>
+</div>
+
+<h1> Do you Want to Visit - <span id="cityname"> </span> </h1>
+
+
+</body>
+</html>
